@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.pop{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header_container_col_logo {
+    min-width: 160px;
+    max-width: 160px;
+    margin-left: 10px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.icon-p{
+    align-items: center;
+    display: flex;
+    margin: 20px 0px 16px 10px !important;
+}
+.icon-p a{
+   text-decoration: none;
+}
+.link{
+   text-decoration: none;
+}
+ion-icon {
+    font-size: 24px;
+    color: #b9b9b9;
+}
+
+.inner-menu{display: flex;
+align-items: center;
+justify-content: space-between;}
+
+.inner-menu-wrapper{
+    padding: 8px 16px;
+}
+.inner-menu-wrapper-p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+.pd-l-0{
+    padding-left: 0px !important;
+}
+.borderBottom{
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.logo-img{width: 300px;}
+
+/* .btn-close{
+    display: none;
+} */
+
+
+@media only screen and (max-width: 600px)  {
+    .btn-close{
+        display: block;
+    }
+    .logo-img{width: 150px;}
+    .menu-bar{
+        display: none !important;
+    }
+
+
+}

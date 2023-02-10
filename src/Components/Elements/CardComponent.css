@@ -1,0 +1,21 @@
+.card-image-list {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.explore-link {
+  text-decoration: none;
+  font-weight: 600;
+  text-align: right;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+
+.CardComponent-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
