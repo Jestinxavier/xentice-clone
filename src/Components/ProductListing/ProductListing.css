@@ -1,0 +1,16 @@
+.ProductListing-icon{
+    display: flex;
+    align-items: center;
+}
+.icon-image-listing-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+}
+.icon-image-listing-mar{
+    margin-right: 15px;
+}
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar{
+display:none;
+}

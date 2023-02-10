@@ -1,0 +1,56 @@
+.sublistheader {
+  height: 100px;
+  background-color: #ffffff;
+  
+}
+
+.sublistheader-p {
+  color: black;
+  opacity: 0.8;
+  font-size: 12px;
+}
+.sublistheader-img {
+  height: 25px;
+ 
+}
+.sublistheader-div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align:center;
+    margin: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+}
+.overflow-data{
+    overflow-x: scroll;
+    max-width: 100%;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+
+}
+.overflow-data::-webkit-scrollbar{
+    display: none;
+}
+
+.center-sublistheader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.sublistheader-div:hover{
+    scale: 1.2;
+    
+    border-radius: 7px;
+    background: #ffffff;
+    box-shadow: inset 20px 20px 60px #eeeeee, inset -20px -20px 60px #ffffff;
+}
+
+
